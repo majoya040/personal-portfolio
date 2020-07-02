@@ -24,7 +24,7 @@ a, a:hover{
     width: 100%;
     background: url(../img/banner.jpg) center top no-repeat;
     background-size: cover;
-    height: 100vh;
+    
    
 }
 
@@ -33,6 +33,7 @@ a, a:hover{
     background-color: #2E2E30;
     opacity: 65%;
 }
+
 .header-section .navbar-brand img{
     margin: 10px 0px 5px 50px;
     border-radius: 80%;
@@ -40,11 +41,14 @@ a, a:hover{
     width: 100px;
 
 }
+
 .header-section  .navbar-nav>.nav-link{
     
     color: white;
     
 }
+
+
 
 .header-section  .navbar-nav .nav-link{
     
@@ -79,6 +83,7 @@ font-weight: 500;
 
 }
 
+
 .banner p{
     padding-top: 60px;
     font-family: 'Source Code Pro', monospace;
@@ -99,9 +104,12 @@ font-weight: 500;
     
 }
 
+
 .banner .strong{
     margin-right: -7px;
 }
+
+
 
 .button{
     width: 100%;
@@ -123,6 +131,7 @@ font-weight: 500;
     
 
 }
+
 
 .button .btn-info:hover{
 
@@ -776,7 +785,7 @@ border: 1px solid #c9980e;
         }
         
         .education2 .title h4{
-            font-size: 35px;
+            font-size: 32px;
             font-weight: 600;
             text-transform: uppercase;
         }
@@ -788,13 +797,13 @@ border: 1px solid #c9980e;
         
         .education2 .text1 h4{
             padding-top: 10px;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 600;
             text-transform: uppercase;
         }
         
         .education2 .text1 p{
-            font-size: 15px;
+            font-size: 14px;
             letter-spacing: 1px;
         }
         
@@ -815,7 +824,7 @@ border: 1px solid #c9980e;
         
         .education2 .text2 p{
            
-            font-size: 15px;
+            font-size: 14px;
             letter-spacing: 1px;
         }
         
@@ -830,8 +839,8 @@ border: 1px solid #c9980e;
             margin-bottom: 60px;
             border: 7px solid #E9ECEF;
             border-radius: 50%;
-            height: 180px ;
-            width: 180px;
+            height: 150px ;
+            width: 150px;
            
         
         }
@@ -840,14 +849,15 @@ border: 1px solid #c9980e;
         .education2 .img2{
             text-align: center;
         }
+
         .education2 .img2 img{
             
             margin-top: 80px;
             margin-bottom: 60px;
             border: 7px solid #E9ECEF;
             border-radius: 50%;
-            height: 180px ;
-            width: 180px;
+            height: 150px ;
+            width: 150px;
         
         }
        
@@ -857,8 +867,8 @@ border: 1px solid #c9980e;
         }
 
         .skill .project img{
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
            
             margin-bottom: 60px;    
         
@@ -957,7 +967,7 @@ border: 1px solid #c9980e;
         }
         
         .education2 .title h4{
-            font-size: 35px;
+            font-size: 32px;
             font-weight: 600;
             text-transform: uppercase;
         }
@@ -969,13 +979,13 @@ border: 1px solid #c9980e;
         
         .education2 .text1 h4{
             padding-top: 10px;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 600;
             text-transform: uppercase;
         }
         
         .education2 .text1 p{
-            font-size: 15px;
+            font-size: 14px;
             letter-spacing: 1px;
         }
         
@@ -989,14 +999,14 @@ border: 1px solid #c9980e;
         .education2 .text2 h4{
             padding-top: 30px;
             
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 600;
             text-transform: uppercase;
         }
         
         .education2 .text2 p{
            
-            font-size: 15px;
+            font-size: 14px;
             letter-spacing: 1px;
         }
         
@@ -1013,8 +1023,8 @@ border: 1px solid #c9980e;
             margin-bottom: 60px;
             border: 7px solid #E9ECEF;
             border-radius: 50%;
-            height: 180px ;
-            width: 180px;
+            height: 150px ;
+            width: 150px;
            
         
         }
@@ -1030,8 +1040,8 @@ border: 1px solid #c9980e;
             margin-bottom: 60px;
             border: 7px solid #E9ECEF;
             border-radius: 50%;
-            height: 180px ;
-            width: 180px;
+            height: 150px ;
+            width: 150px;
         
         }
        
@@ -1041,8 +1051,8 @@ border: 1px solid #c9980e;
         }
 
         .skill .project img{
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
            
             margin-bottom: 60px;
            
