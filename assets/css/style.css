@@ -18,9 +18,9 @@ a, a:hover{
 /*global css*/
 
 
-/*header*/
+/*-----------------header----------------*/
 .header-section{
-    scroll-behavior: smooth;
+    
     width: 100%;
     background: url(../img/banner.jpg) center top no-repeat;
     background-size: cover;
@@ -41,14 +41,14 @@ a, a:hover{
 
 }
 .header-section  .navbar-nav>.nav-link{
-    scroll-behavior: smooth;
+    
     color: white;
     
 }
 
 .header-section  .navbar-nav .nav-link{
     
-    scroll-behavior: smooth;
+    
 color: white;
 font-size: 17px;
 margin: 0px 0px 0px 25px;
@@ -60,7 +60,7 @@ font-weight: 500;
     color: #dbcd2e;
 }
 
-
+/*-------------------banner---------------*/
 .banner{
     text-align: center;
     width: 100%;
@@ -109,6 +109,7 @@ font-weight: 500;
 
 }
 
+/*--------------------------banner button---------------------*/
 .button .btn-info{
     font-size: 15px;
     font-weight: 600;
@@ -130,6 +131,10 @@ background: #c9980e ;
 border: 1px solid #c9980e;
 }
 
+
+/*------------------------body starts-----------------*/
+
+/*------------------------about part-----------------*/
 .body-about{
     width: 100%;
     text-align: center;
@@ -160,6 +165,7 @@ border: 1px solid #c9980e;
 }
 
 
+/*------------------------work part-----------------*/
 .work{
     width: 100%;
     padding: 80px 0px;
@@ -192,12 +198,18 @@ border: 1px solid #c9980e;
     margin: 20px 0px 20px 0px;
 }
 
+.work2{
+    display: none;
+}
+
+
+/*------------------------prokects part-----------------*/
 .project{
     width: 100%;
     padding: 80px 0px 80px 0px;
     text-align: center;
     background: #F8F9FA;
-    height: 120vh;
+   
 }
 
 .project .title{
@@ -269,9 +281,17 @@ border: 1px solid #c9980e;
 }
 
 
+.project2{
+    display:none;
+}
+
+
+/*------------------------education part-----------------*/
 .education{
     width: 100%;
     padding: 80px 0px ;
+    
+   
 }
 
 .education .title{
@@ -327,12 +347,23 @@ border: 1px solid #c9980e;
 .education .img{
     text-align: center;
 }
+
+.education .vertical { 
+    border-left: 3px solid #E9ECEF; 
+    height: 780px; 
+    position:absolute; 
+    margin-left: -20px;
+    margin-top: -60px; 
+}
+
+
 .education .img1 img{
     margin-top: 80px;
-   
+    margin-bottom: 60px;
+    border: 7px solid #E9ECEF;
     border-radius: 50%;
-    height: 150px ;
-    width: 150px;
+    height: 180px ;
+    width: 180px;
     margin-left: -110px;
 
 }
@@ -340,12 +371,24 @@ border: 1px solid #c9980e;
 .education .img2 img{
     margin-left: 460px;
     margin-top: 80px;
-   
+    margin-bottom: 60px;
+    border: 7px solid #E9ECEF;
     border-radius: 50%;
-    height: 150px ;
-    width: 150px;
+    height: 180px ;
+    width: 180px;
 
 }
+
+.education2{
+    display: none;
+}
+
+
+
+
+
+
+
 
 /*
 .counter
@@ -384,6 +427,8 @@ border: 1px solid #c9980e;
 } */
 
 
+
+/*------------------------skill part-----------------*/
 .skill{
     width: 100%;
     text-align: center;
@@ -396,25 +441,40 @@ border: 1px solid #c9980e;
 }
 
 .skill .title h4{
-    margin-bottom: 30px;
+   
     font-size: 35px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
+
 .skill .project{
     background: transparent;
-    height: 50vh;
+    height: 400px;
 }
+
 .skill .project img{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    border: 6px solid #E0E0E0;
+
     
 
 }
 
+
+.skill .vertical { 
+    border-left: 3px solid #E0E0E0; 
+    height: 80px; 
+    position:absolute; 
+    margin-left: 170px;
+    margin-top: -80px; 
+}
+
+
+/*------------------------skill percentage part-----------------*/
 .project-bar {
     height: 18px;
     width: 70%;
@@ -446,7 +506,156 @@ border: 1px solid #c9980e;
   
 
 
+/*------------------------footer starts-----------------*/
 
+/*------------------------contact part-----------------*/
+.contact{
+    width: 100%;
+    background-color: #1A1A1A;
+    background-size: cover;
+    padding: 80px 0px;
+    
+}
+
+
+.contact .title{
+    width: 100%;
+    text-align: center;
+}
+
+.contact .title h1{
+    color: white;
+    
+    font-size: 55px;
+    font-weight: 800;
+}
+
+/*
+.contact img{
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 80px;
+   
+}
+*/
+
+
+.contact .list {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 160px;
+    
+    
+}
+
+.contact .list  li {
+  float: left; 
+  
+}
+  
+.contact .list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 60px 40px 0px 60px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FBD247;
+}
+
+.contact .list li a:hover{
+    color: white;
+}
+
+
+.contact .social {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 280px;
+    
+    
+}
+
+.contact .social  li {
+  float: left;
+  padding: 20px 10px 0px 20px;
+  
+  
+}
+.contact .icon{
+    height: 80px;
+    width: 80px;
+    border: 3px solid white;
+    background: #edc75f;
+    border-radius: 50%;
+    margin-top: 20px;
+   
+}
+
+.contact .icon .fab{
+    font-size: 20px;
+    color: white;
+    padding: 25px 0px 0px 30px;
+    
+}
+
+.contact .icon .fa{
+    font-size: 20px;
+    color: white;
+    padding: 25px 0px 0px 26px;
+    
+}
+
+
+.contact .copywrite{
+    padding-top: 80px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.contact .copywrite::before {
+    content: ' \00A9';
+    color:yellow;
+
+}
+
+
+/*
+.contact .navbar{
+    background:transparent;
+ 
+}
+
+.contact .navbar-nav{
+    text-align: right;
+    padding: 0px 70px 0px 70px;
+}
+.contact  .navbar-nav> .nav-item .nav-link{
+    background:transparent;
+    color: #dbcd2e;
+    
+    
+}
+
+
+.contact .navbar-nav .nav-link{
+    background:transparent;
+    font-size: 17px;
+   
+    font-weight: 500;
+    color: #dbcd2e;
+    text-align: center;
+}
+
+
+.contact .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+*/
+
+/*
 .contact{
     width: 100%;
     background-color: #212529;
@@ -463,7 +672,7 @@ border: 1px solid #c9980e;
 }
 
 .contact .img img{ 
-    height: 80vh;
+   height: 400px;
 
 }
 .conta .title {
@@ -476,7 +685,7 @@ border: 1px solid #c9980e;
 }
 
 .contact img{
-    width: 1300px;
+   
     margin-left: -80px;
 }
 
@@ -510,6 +719,7 @@ border: 1px solid #c9980e;
     padding: 10px 0px 0px 80px;
     
 }
+*/
 
 
 /* .conta form{
@@ -536,3 +746,719 @@ border: 1px solid #c9980e;
     border: 1px solid #c9980e;
     }
      */
+
+
+   
+
+
+
+/*-------------responsive----------*/
+
+     @media (max-width:320px){
+
+        .education{
+            display: none;
+        }
+
+
+        .education2{
+            width: 100%;
+            padding: 80px 0px ;
+            display: block;
+            
+           
+        }
+        
+        .education2 .title{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        
+        .education2 .title h4{
+            font-size: 35px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .education2 .text1{
+            width: 100%;
+          
+          text-align: center;
+        }
+        
+        .education2 .text1 h4{
+            padding-top: 10px;
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .education2 .text1 p{
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .education2 .text2{
+            width: 100%;
+           
+           text-align: center;
+           
+        }
+        
+        .education2 .text2 h4{
+            padding-top: 30px;
+            
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .education2 .text2 p{
+           
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        
+       
+        .education2 .img1{
+            text-align: center;
+        }
+        
+        .education2 .img1 img{
+            
+            margin-top: 80px;
+            margin-bottom: 60px;
+            border: 7px solid #E9ECEF;
+            border-radius: 50%;
+            height: 180px ;
+            width: 180px;
+           
+        
+        }
+        
+
+        .education2 .img2{
+            text-align: center;
+        }
+        .education2 .img2 img{
+            
+            margin-top: 80px;
+            margin-bottom: 60px;
+            border: 7px solid #E9ECEF;
+            border-radius: 50%;
+            height: 180px ;
+            width: 180px;
+        
+        }
+       
+        
+        .skill .vertical { 
+         display: none;
+        }
+
+        .skill .project img{
+            width: 180px;
+            height: 180px;
+           
+            margin-bottom: 60px;    
+        
+        }
+
+        .project-bar{
+            margin-top: -20px;
+            margin-bottom: -60px;
+        }
+        
+        
+        .contact .list {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 5px;  
+            
+        }
+        
+          
+        .contact .list li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 60px 40px 0px 50px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #FBD247;
+        }
+        
+        .contact .list li a:hover{
+            color: white;
+        }
+        
+        
+        .contact .social {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 60px;
+            
+            
+        }
+        
+        
+        .contact .icon{
+            height: 40px;
+            width: 40px;
+            border: transparent;
+            background: transparent;
+            border-radius: 50%;
+            margin-top: 10px;
+           
+        }
+        
+        .contact .icon .fab{
+            font-size: 15px;
+            color: #FBD247;
+            padding: 0px 0px 0px 0px;
+            
+            
+        }
+        
+        .contact .icon .fa{
+            font-size: 15px;
+            color: #FBD247;
+            padding: 0px 0px 0px 0px;
+           
+            
+        }
+
+        .contact .icon .fa-phone{
+            font-size: 15px;
+            padding-left: 0px;
+        }
+    }
+
+     }
+     @media (min-width: 320px) and (max-width: 770px) {
+
+        .education{
+            display: none;
+        }
+
+
+        .education2{
+            width: 100%;
+            padding: 80px 0px ;
+            display: block;
+            
+           
+        }
+        
+        .education2 .title{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        
+        .education2 .title h4{
+            font-size: 35px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .education2 .text1{
+            width: 100%;
+          
+          text-align: center;
+        }
+        
+        .education2 .text1 h4{
+            padding-top: 10px;
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .education2 .text1 p{
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .education2 .text2{
+            width: 100%;
+           
+           text-align: center;
+           
+        }
+        
+        .education2 .text2 h4{
+            padding-top: 30px;
+            
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .education2 .text2 p{
+           
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        
+       
+        
+       
+        .education2 .img1{
+            text-align: center;
+        }
+        
+        .education2 .img1 img{
+            
+            margin-top: 80px;
+            margin-bottom: 60px;
+            border: 7px solid #E9ECEF;
+            border-radius: 50%;
+            height: 180px ;
+            width: 180px;
+           
+        
+        }
+        
+
+        .education2 .img2{
+            text-align: center;
+        }
+        .education2 .img2 img{
+            
+            margin-top: 80px;
+            margin-bottom: 60px;
+            border: 7px solid #E9ECEF;
+            border-radius: 50%;
+            height: 180px ;
+            width: 180px;
+        
+        }
+       
+        
+        .skill .vertical { 
+         display: none;
+        }
+
+        .skill .project img{
+            width: 180px;
+            height: 180px;
+           
+            margin-bottom: 60px;
+           
+        
+            
+        
+        }
+
+        .project-bar{
+            margin-top: -20px;
+            margin-bottom: -60px;
+        }
+        
+        
+        .contact .list {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 5px;
+            
+            
+            
+        }
+        
+        
+          
+        .contact .list li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 60px 40px 0px 50px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #FBD247;
+        }
+        
+        .contact .list li a:hover{
+            color: white;
+        }
+        
+        
+        .contact .social {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 60px;
+            
+            
+        }
+        
+        
+        .contact .icon{
+            height: 40px;
+            width: 40px;
+            border: transparent;
+            background: transparent;
+            border-radius: 50%;
+            margin-top: 10px;
+           
+        }
+        
+        .contact .icon .fab{
+            font-size: 15px;
+            color: #FBD247;
+            padding: 0px 0px 0px 0px;
+            
+            
+        }
+        
+        .contact .icon .fa{
+            font-size: 15px;
+            color: #FBD247;
+            padding: 0px 0px 0px 0px;
+           
+            
+        }
+
+        .contact .icon .fa-phone{
+            font-size: 15px;
+            padding-left: 0px;
+        }
+    }
+
+
+    @media (min-width: 770px) and (max-width: 992px){
+
+
+        .work{
+            display: none;
+        }
+
+        .work2{
+            width: 100%;
+            padding: 80px 0px;
+            display: block;
+        }
+        
+        
+        .work2 .title{
+            text-align: center;
+            margin-bottom: 80px;
+            font-size: 35px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .work2 .left{
+            width: 100%;
+            text-align: center;
+        }
+        
+        
+        .work2 .left .fa-laptop {
+            color: white;
+            font-size: 60px;
+            background: #FED136;
+            padding: 35px;
+           border-radius: 50%;
+        }
+        
+        
+        .work2 .left h4{
+            margin: 40px 0px 20px 0px;
+        }
+
+        .work2 .left h4{
+            font-size: 28px;
+        }
+
+        .work2 .left p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        
+
+
+        .project{
+            display: none;
+           
+        }
+
+        .project2{
+            width: 100%;
+            padding: 80px 0px 80px 0px;
+            text-align: center;
+            background: #F8F9FA;
+            display: inline;
+           
+        }
+        
+        .project2 .title{
+            width: 100%;
+        }
+        
+        .project2 .title h4{
+            font-size: 35px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .project2 .img1{
+            width: 100%;
+            position: relative;
+        
+        }
+        
+        .project2 .img1 .btn{
+            background: transparent;
+            border: none;
+            
+        
+        }
+        
+        .project2 .img1 .btn img{
+            height: 220px;
+            width: 340px;
+            display: block;
+           
+            
+        }
+        
+        
+        .project2 .img1 .btn .overlay {
+            position: absolute;
+            
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 220px;
+            width: 350px;
+            opacity: 0;
+            margin-top: 6px;
+            
+        
+        }
+        
+        .overlay .fa-plus{
+            font-size: 40px;
+            padding-top: 80px;
+        }
+        
+        .project2 .img1 .btn:hover .overlay {
+            opacity: 90%;
+            background-color: #FBD247;
+            transition: .5s;
+            
+        
+        }
+        
+        
+        .modal-footer .btn{
+            color: teal;
+        }
+        .modal-footer .btn a{
+            color: teal;
+        }
+
+
+        .education .text1{
+            
+            padding-left: 0px;
+            padding-right: 40px;
+        }
+
+
+        .education .text1 h4{
+            
+            font-size: 22px;
+           
+        }
+        
+        .education .text1 p{
+            line-height: 28px;
+            
+          
+        }
+
+        .education .text2{
+            padding-left: 60px;
+            padding-right: 20px;
+        }
+
+        .education .img2 img{
+            margin-left: 270px;
+            height: 150px ;
+            width: 150px;
+        
+        }
+
+        .education .img1 img{
+            margin-left: -90px;
+            height: 150px ;
+            width: 150px;
+           
+        
+        }
+
+
+        .education .vertical { 
+           
+            height: 740px; 
+            
+        }
+        
+
+      
+        
+        
+        
+        .skill .title h4{
+           
+            font-size: 35px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .skill .project{
+            display: inline;
+            
+        }
+
+
+        .skill .project img{
+            width: 120px;
+            height: 120px;
+            
+            
+            
+        
+        }
+        
+        
+        .skill .vertical { 
+            border-left: 3px solid #E0E0E0; 
+            height: 80px; 
+            position:absolute; 
+            margin-left: 100px;
+            margin-top: -80px; 
+        }
+
+        .project-bar {
+            height: 18px;
+            width: 70%;
+            background: #e0e0e0;
+            border-radius: 30px;
+            margin-left: 40px;
+        }
+
+        .contact .list {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 60px;
+            
+            
+        }
+
+        .contact .list li a {
+            
+            padding: 60px 20px 0px 40px;
+           
+        
+        
+
+
+    }
+
+    .contact .copywrite{
+        
+        margin-left: -60px;
+        
+       
+    }
+    
+
+    .contact .social {
+        list-style: none;
+        overflow: hidden;
+        padding-left: 60px;
+        
+        
+    }
+
+}
+    
+
+        
+    @media (min-width: 992px) and (max-width: 1199px){
+
+            /*-----projects-------------*/
+           
+           
+           .project .img1 .btn img{
+               
+               width: 310px;
+           }
+           
+           .project .img1 .btn .overlay {
+              
+               height: 220px;
+               width: 300px;
+               opacity: 0;
+               margin-top: 6px;
+               margin-left: 12px;
+           }
+
+           .education .text1{
+           
+            padding-left: 20px;
+        }
+
+        .education .text2{
+            padding-left: 80px;
+           
+        }
+
+
+        .education .img2 img{
+            margin-left: 370px;
+        
+        }
+
+        .skill .vertical { 
+            
+            margin-left: 145px;
+           
+        }
+
+        .contact .list {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 150px; 
+        }
+
+
+        .contact .list li a {
+            
+            padding: 60px 20px 0px 40px;
+           
+        }
+
+
+        .contact .copywrite{
+            padding-top: 80px;
+            margin-left: -60px;
+            
+           
+        }
+        
+
+        .contact .social {
+            list-style: none;
+            overflow: hidden;
+            padding-left: 160px;
+            
+            
+        }
+          
+   
+        }
+   
