@@ -934,7 +934,7 @@ border: 1px solid #c9980e;
         }
     }
 
-     }
+
      @media (min-width: 320px) and (max-width: 770px) {
 
         .education{
@@ -1023,6 +1023,7 @@ border: 1px solid #c9980e;
         .education2 .img2{
             text-align: center;
         }
+
         .education2 .img2 img{
             
             margin-top: 80px;
